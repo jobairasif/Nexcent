@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+  .nav-btns {
+    display: none;
+  }
+}
