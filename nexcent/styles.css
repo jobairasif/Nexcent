@@ -119,8 +119,8 @@ nav .hamburger {
 
 .our-clients-logos img {
   width: 100%;
-  margin-left: 200px;
-  margin-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-bottom: 40px;
 }
 
@@ -136,11 +136,52 @@ nav .hamburger {
   margin-top: 20px;
   color: #4d4d4d;
   font-weight: 400px;
+  margin-bottom: 30px;
 }
 
 .frame img {
   width: 100%;
   margin-top: 30px;
+}
+
+.icons-all {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons-all h2 {
+  color: #4d4d4d;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.icons-all p {
+  color: #717171;
+}
+
+.icon-1 {
+  background: #f5f7fa;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.icon-2 {
+  background: #f5f7fa;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.icon-3 {
+  background: #f5f7fa;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
 }
 
 .girl-sitting {
@@ -233,7 +274,107 @@ nav .hamburger {
   margin-top: 100px;
 }
 
+.caring-all {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.caring-1 {
+  text-align: center;
+  border-radius: 8px;
+}
+
+.caring-all img {
+  display: flex;
+  width: 100%;
+}
+.caring-2 {
+  text-align: center;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.caring-3 {
+  text-align: center;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.positioning-btns- {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.positioning-btns h2 {
+  color: #4d4d4d;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.positioning-btns p {
+  color: #717171;
+}
+
+.pbtn-1 {
+  position: relative;
+  right: 60px;
+  top: 30px;
+  background: #f5f7fa;
+  height: 175px;
+  width: 315px;
+  text-align: center;
+  border-radius: 8px;
+}
+.pbtn-1 h2 {
+  font-size: 20px;
+  color: #717171;
+}
+
+.pbtn-2 h2 {
+  font-size: 20px;
+  color: #717171;
+}
+.pbtn-3 h2 {
+  font-size: 20px;
+  color: #717171;
+}
+.positioning-btns- {
+  margin-top: -150px;
+  text-align: center;
+  align-items: center;
+}
+.pbtn-2 {
+  position: relative;
+  right: px;
+  top: 30px;
+  background: #f5f7fa;
+  height: 175px;
+  width: 315px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.pbtn-3 {
+  position: relative;
+  left: 50px;
+  top: 30px;
+  background: #f5f7fa;
+  height: 175px;
+  width: 315px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.positioning-btns- span {
+  font-size: 20px;
+  width: 600px;
+  color: #4caf4f;
+}
+
 .demo-section h2 {
+  padding-top: 50px;
   margin-top: 25px;
   font-size: 36px;
   font-weight: 600px;
@@ -255,7 +396,6 @@ nav .hamburger {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .footer-links-parts {
@@ -327,4 +467,10 @@ footer p {
 
 .footer-links-part input::placeholder {
   color: white;
+}
+
+footer .relative {
+  position: relative;
+  left: 220px;
+  bottom: 30px;
 }
