@@ -23,9 +23,7 @@ nav ul {
   justify-content: space-between;
   gap: 30px;
 }
-.na
-
-nav .nav-icons {
+.na nav .nav-icons {
   display: flex;
 
   width: 30px;
@@ -129,4 +127,49 @@ nav .box svg {
 .best-sellers img {
   width: 100%;
   height: 255px;
+}
+
+/*.container {
+  padding: 2rem;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48px;
+  margin: auto;
+}
+.slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
 }
