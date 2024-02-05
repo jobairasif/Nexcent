@@ -1,0 +1,57 @@
+header .container {
+  padding-top: 30px;
+}
+.text-area .container {
+  padding-bottom: 100px;
+}
+.text-area .container h2 {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Manrope";
+  font-weight: 500;
+}
+header .container img {
+  width: 150px;
+}
+
+.text-area .container ul li {
+  list-style-type: disc;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  header .container img {
+    width: 150px;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-area .container h2 {
+    font-family: "Jua";
+    margin-bottom: 50px;
+  }
+
+  .text-area .container {
+    padding: 20px 20px;
+  }
+
+  .text-area .container ul li {
+    font-size: 18px;
+  }
+
+  footer .container .footer-logo img {
+    width: 150px;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}

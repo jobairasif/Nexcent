@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+.container {
+  margin: 0px auto;
+  width: 90%;
+  max-width: 1440px;
+}
+header {
+  width: 100%;
+  padding-top: 50px;
+}
+header .container img {
+  width: 150px;
+}
+
+.angel-business .container {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: auto 463px;
+  grid-gap: 100px;
+  align-items: center;
+}
+
+.angel-business .container .container-left h1 {
+  margin-bottom: 5px;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Jua", sans-serif;
+}
+
+.angel-business .container .container-left h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.angel-business .container .container-left p {
+  font-size: 17px;
+}
+
+.angel-business .container .container-left .info-box1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.angel-business .container .container-right {
+  border: 1px solid transparent;
+  width: 100%;
+  padding: 50px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.angel-business .container .container-right h3 {
+  font-size: 22px;
+  font-weight: 600;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.angel-business .container .container-right p {
+  font-size: 15px;
+}
+
+.angel-business .container .container-right .top-p {
+  margin-bottom: 50px;
+}
+
+.angel-business .container .container-right h4 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.angel-business .container .container-right input {
+  margin-bottom: 20px;
+  background-color: rgba(237, 237, 237, 0.4);
+  height: 50px;
+  width: 100%;
+  padding: 0 15px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.angel-business .container .container-right .primary-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b13aa;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.angel-business .container .container-right .secondary-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(237, 237, 237, 0.4);
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  color: #323232;
+  margin-top: 15px;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.angel-business .container .container-right .ending-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.angel-business .container .container-right .ending-text span {
+  color: #4b13aa;
+}
+
+.faq .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq .container h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.faq .container .questions {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.faq .container .questions .first-box {
+  height: 204px;
+  width: 744px;
+  border: 1px solid none;
+  background-color: rgba(75, 19, 170, 0.1);
+  padding: 32px;
+  border-radius: 6px;
+}
+.faq .container .questions .first-box p {
+  font-size: 18px;
+}
+
+.faq .container .questions .first-qstn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq .container .questions .first-qstn h4 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.faq .container .question {
+  display: flex;
+  height: 104px;
+  width: 744px;
+  align-items: center;
+  padding: 32px;
+  justify-content: space-between;
+}
+.faq .container .questions- {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.faq .container .questions {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq .container .questions .questions- .question h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.faq .container .questions .questions- .question {
+  border-bottom: 1px solid #e7eaee;
+}
+
+@media only screen and (max-width: 768px) {
+  header .container img {
+    width: 150px;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .angel-business .container .container-left h1 {
+    font-size: 40px;
+  }
+  .angel-business .container {
+    grid-template-columns: 1fr;
+  }
+  .angel-business .container .container-left h1 {
+    text-align: center;
+  }
+
+  .angel-business .container .container-left p {
+    text-align: center;
+  }
+
+  .angel-business .container .container-left p {
+    text-align: left;
+  }
+
+  .angel-business .container .container-left .angel-business-heading {
+    text-align: center;
+  }
+  .angel-business .container .container-right {
+    padding: 50px 20px;
+  }
+
+  .angel-business .container .container-right h3 {
+    text-align: center;
+  }
+
+  .angel-business .container .container-right .top-p {
+    text-align: center;
+  }
+
+  .angel-business .container .container-right h4 {
+    margin-top: 20px;
+  }
+
+  footer .container .footer-logo img {
+    width: 150px;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}

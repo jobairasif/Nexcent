@@ -1,0 +1,159 @@
+header .container {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+section {
+  padding-bottom: 100px;
+}
+
+section .container {
+  padding: 50px 50px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .container img {
+  width: 150px;
+}
+
+section .container h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Jua";
+}
+
+section .container p {
+  text-align: center;
+  font-size: 18px;
+}
+
+section .container .secondary-p {
+  margin-bottom: 50px;
+}
+
+section .container .secondary-p a {
+  color: #4b13aa;
+}
+
+section .container p span {
+  color: #4b13aa;
+}
+section .container .input-group {
+  width: 100%;
+  max-width: 500px;
+}
+
+section .container .input-group label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section .container .input-group select {
+  margin-top: 10px;
+  height: 65px;
+  border: 1px solid #4b13aa;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: rgba(70, 70, 70, 0.7);
+  padding: 10px 15px;
+}
+
+section .container .cta-btn {
+  font-size: 18px;
+  font-weight: 600;
+  height: 65px;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #4b13aa;
+  border-radius: 50px;
+  margin-top: 30px;
+  background-color: #4b13aa;
+  color: white;
+}
+
+section .container p {
+  margin-top: 20px;
+}
+
+section .container .social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 65px;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(237, 237, 237, 0.2);
+  border-radius: 47px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section .container .language-btn {
+  height: 65px;
+  width: 100%;
+  max-width: 145px;
+  border-radius: 40px;
+  background-color: rgba(237, 237, 237, 0.2);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  header .container img {
+    width: 150px;
+  }
+
+  section .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  section .container h1 {
+    font-size: 30px;
+  }
+  section .container .input-group select {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  section .container .cta-btn {
+    font-size: 16px;
+  }
+
+  section .container .social-btn {
+    font-size: 16px;
+  }
+
+  section .container .social-btn {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  section .container .language-btn {
+    font-size: 16px;
+  }
+  footer .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer .container .footer-logo img {
+    width: 150px;
+  }
+}

@@ -16,11 +16,12 @@ nav {
   position: absolute;
   top: 0px;
   left: 0px;
-  padding-left: 400px;
+
 }
 
 nav svg {
   background-color: #c98a40;
+
 }
 
 .hero-section {
