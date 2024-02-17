@@ -496,6 +496,7 @@ img {
   flex-direction: column;
   align-items: flex-end;
   border: 1px solid black;
+  padding: 30px;
 }
 .contact-page section .container .close-btn {
   margin-bottom: 20px;
@@ -509,6 +510,11 @@ img {
   grid-gap: 50px;
   margin-bottom: 50px;
 }
+@media (max-width: 768px) {
+  .contact-page section .container .input-groups {
+    grid-template-columns: 1fr;
+  }
+}
 .contact-page section .container .input-groups .dropdown select {
   font-size: 20px;
   width: 100%;
@@ -516,7 +522,8 @@ img {
   padding-bottom: 15px;
   border-bottom: 1px solid black;
 }
-.contact-page section .container input, .contact-page section .container select {
+.contact-page section .container input,
+.contact-page section .container select {
   width: 100%;
   border: none;
   padding-bottom: 15px;
@@ -526,7 +533,8 @@ img {
   color: black;
   font-size: 18px;
 }
-.contact-page section .container input::placeholder, .contact-page section .container select::placeholder {
+.contact-page section .container input::placeholder,
+.contact-page section .container select::placeholder {
   color: black;
   font-size: 18px;
 }
@@ -537,12 +545,31 @@ img {
   align-items: center;
   margin-top: 50px;
 }
+@media (max-width: 768px) {
+  .contact-page section .bottom {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
 .contact-page section .bottom .checkbox-group {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 .contact-page section .bottom .checkbox-group input {
   width: 50px;
+}
+@media (max-width: 768px) {
+  .contact-page section .bottom .checkbox-group input {
+    width: 30px;
+  }
+}
+.contact-page section .bottom .checkbox-group p {
+  font-size: 16px;
+}
+.contact-page section .bottom .checkbox-group p a {
+  font-weight: bold;
+  color: black;
 }
 .contact-page section .bottom button {
   height: 50px;
