@@ -1,0 +1,90 @@
+.home-page {
+  min-height: 100vh;
+  background-image: url("../images/home-page-img1.png");
+  background-size: cover;
+  background-position: center;
+
+  nav {
+    padding: 35px 0;
+
+    .container {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        color: white;
+      }
+
+      .logo {
+        position: absolute;
+        left: 50%;
+        width: 209px;
+        transform: translateX(-50%);
+        color: white;
+        text-align: center;
+
+        @media only screen and (max-width: 1024px) {
+          top: 50px;
+        }
+
+        h1 {
+          margin-bottom: 5px;
+          font-size: 32px;
+          font-weight: 400;
+          letter-spacing: 8px;
+        }
+
+        p {
+          letter-spacing: 8px;
+        }
+      }
+    }
+  }
+
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 35px 0;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 50px;
+      @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a {
+        color: white;
+      }
+      .btns {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        button {
+          padding: 5px 20px;
+          background: none;
+          border: 1px solid white;
+          color: white;
+          font-size: 16px;
+          border-radius: 100px;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background-color: white;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
