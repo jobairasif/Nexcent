@@ -556,6 +556,9 @@ img {
 .welcome-page {
   padding-top: 100px;
 }
+.welcome-page .welcome {
+  padding-bottom: 100px;
+}
 .welcome-page .welcome .container {
   position: relative;
   padding-top: 100px;
@@ -604,11 +607,30 @@ img {
     text-align: left;
   }
 }
+.welcome-page .welcome .container .container-right img {
+  width: 350px;
+  position: absolute;
+  top: 100px;
+  right: -310px;
+}
+@media (max-width: 768px) {
+  .welcome-page .welcome .container .container-right img {
+    position: static;
+    width: 100%;
+  }
+}
 .welcome-page .our-history {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+}
+@media (max-width: 768px) {
+  .welcome-page .our-history {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
 }
 .welcome-page .our-history .container {
+  position: relative;
   display: grid;
   grid-template-columns: 400px auto;
   grid-gap: 100px;
@@ -643,7 +665,16 @@ img {
   }
 }
 .welcome-page .our-history .container-left img {
-  width: 100%;
+  width: 350px;
+  position: absolute;
+  left: -350px;
+  top: -50px;
+}
+@media (max-width: 768px) {
+  .welcome-page .our-history .container-left img {
+    position: static;
+    width: 100%;
+  }
 }
 .welcome-page .our-team {
   padding-bottom: 100px;

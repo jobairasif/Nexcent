@@ -1,6 +1,7 @@
 .welcome-page {
   padding-top: 100px;
   .welcome {
+    padding-bottom: 100px;
     .container {
       position: relative;
       padding-top: 100px;
@@ -46,10 +47,14 @@
 
       .container-right {
         img {
-          // width: 350px;
-          // position: absolute;
-          // top: 100px;
-          // right: -310px;
+          width: 350px;
+          position: absolute;
+          top: 100px;
+          right: -310px;
+          @media (max-width: 768px) {
+            position: static;
+            width: 100%;
+          }
         }
       }
     }
@@ -57,8 +62,13 @@
 
   .our-history {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
+    @media (max-width: 768px) {
+      padding-top: 0;
+      padding-bottom: 100px;
+    }
     .container {
+      position: relative;
       display: grid;
       grid-template-columns: 400px auto;
       grid-gap: 100px;
@@ -92,7 +102,14 @@
 
     .container-left {
       img {
-        width: 100%;
+        width: 350px;
+        position: absolute;
+        left: -350px;
+        top: -50px;
+        @media (max-width: 768px) {
+          position: static;
+          width: 100%;
+        }
       }
     }
   }
