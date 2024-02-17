@@ -9,20 +9,35 @@
         margin-top: 200px;
         margin-bottom: 200px;
         position: relative;
+        @media (max-width: 768px) {
+          position: static;
+          flex-direction: column;
+          margin: 100px 0;
+        }
         img {
           position: absolute;
-          right: 0;
+          right: -311px;
           bottom: 10px;
+          @media (max-width: 768px) {
+            position: static;
+            width: 100%;
+          }
         }
       }
       h1 {
         font-size: 62px;
         font-weight: 300;
+        @media (max-width: 768px) {
+          font-size: 40px;
+        }
       }
       .heading {
         font-size: 26px;
         color: #666666;
         margin-top: 20px;
+        @media (max-width: 768px) {
+          font-size: 20px;
+        }
       }
       .primary-border-bottom {
         border: 2px solid #01bfc3;
@@ -36,16 +51,28 @@
         align-items: end;
         margin-top: 200px;
         margin-bottom: 400px;
+        @media (max-width: 768px) {
+          position: static;
+          flex-direction: column;
+          margin: 0 0;
+        }
         img {
           position: absolute;
-          left: 0;
+          left: -312px;
           top: 0;
+          @media (max-width: 768px) {
+            position: static;
+            width: 100%;
+          }
         }
       }
       .bullet-points {
         display: flex;
         gap: 30px;
         margin-bottom: 50px;
+        @media (max-width: 768px) {
+          flex-wrap: wrap;
+        }
 
         .bullet-point {
           margin-top: 50px;
@@ -57,9 +84,17 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          @media (max-width: 768px) {
+            margin-top: 0;
+          }
           p {
             font-size: 18px;
             color: white;
+            @media (max-width: 768px) {
+              font-size: 16px;
+              width: 30px;
+              text-align: center;
+            }
           }
         }
         .first-number {
@@ -86,6 +121,10 @@
         background-color: black;
         margin-top: 50px;
         width: 500px;
+        @media (max-width: 768px) {
+          margin-bottom: 20px;
+          width: 285px;
+        }
       }
     }
   }

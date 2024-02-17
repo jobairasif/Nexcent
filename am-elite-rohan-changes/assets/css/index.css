@@ -760,19 +760,42 @@ img {
   margin-bottom: 200px;
   position: relative;
 }
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .part {
+    position: static;
+    flex-direction: column;
+    margin: 100px 0;
+  }
+}
 .methodology-page .methodology .container .part img {
   position: absolute;
-  right: 0;
+  right: -311px;
   bottom: 10px;
+}
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .part img {
+    position: static;
+    width: 100%;
+  }
 }
 .methodology-page .methodology .container h1 {
   font-size: 62px;
   font-weight: 300;
 }
+@media (max-width: 768px) {
+  .methodology-page .methodology .container h1 {
+    font-size: 40px;
+  }
+}
 .methodology-page .methodology .container .heading {
   font-size: 26px;
   color: #666666;
   margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .heading {
+    font-size: 20px;
+  }
 }
 .methodology-page .methodology .container .primary-border-bottom {
   border: 2px solid #01bfc3;
@@ -787,15 +810,33 @@ img {
   margin-top: 200px;
   margin-bottom: 400px;
 }
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .right-part {
+    position: static;
+    flex-direction: column;
+    margin: 0 0;
+  }
+}
 .methodology-page .methodology .container .right-part img {
   position: absolute;
-  left: 0;
+  left: -312px;
   top: 0;
+}
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .right-part img {
+    position: static;
+    width: 100%;
+  }
 }
 .methodology-page .methodology .container .bullet-points {
   display: flex;
   gap: 30px;
   margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .bullet-points {
+    flex-wrap: wrap;
+  }
 }
 .methodology-page .methodology .container .bullet-points .bullet-point {
   margin-top: 50px;
@@ -808,9 +849,21 @@ img {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .bullet-points .bullet-point {
+    margin-top: 0;
+  }
+}
 .methodology-page .methodology .container .bullet-points .bullet-point p {
   font-size: 18px;
   color: white;
+}
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .bullet-points .bullet-point p {
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+  }
 }
 .methodology-page .methodology .container .bullet-points .first-number {
   background-color: #01bfc3 !important;
@@ -832,6 +885,12 @@ img {
   background-color: black;
   margin-top: 50px;
   width: 500px;
+}
+@media (max-width: 768px) {
+  .methodology-page .methodology .container .secondary-border-bottom {
+    margin-bottom: 20px;
+    width: 285px;
+  }
 }
 
 .service-page section {
