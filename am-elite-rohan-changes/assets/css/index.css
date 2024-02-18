@@ -950,7 +950,6 @@ img {
   .service-page section .center-part {
     padding-top: 200px;
     border-right: none;
-    border-bottom: 3px solid #666;
     padding-bottom: 50px;
   }
 }
@@ -959,7 +958,7 @@ img {
   width: 100%;
 }
 .service-page section .center-part h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   margin-bottom: 20px;
 }
